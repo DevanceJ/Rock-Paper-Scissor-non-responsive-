@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Roboto+Slab&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+#head {
+    width: 500px;
+    margin: auto;
+}
+
+#head h1 {
+    text-align: center;
+    margin-top: 20px;
+    border: 2px solid blue;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid gray;
+    margin: 30px;
+}
+
+.gamebox {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 30px;
+    border: 2px solid rgb(206, 203, 203);
+    height: 300px;
+}
+
+#rcs {
+    display: flex;
+}
+
+.moves {
+    list-style: none;
+    margin: 10px;
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.img {
+    height: 84px;
+    width: 150px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    background-color: #96D4D4;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+
+
+@keyframes myMove {
+    from {
+        margin-left: -150px;
+        display: none;
+
+    }
+
+    to {
+        margin-left: 0px;
+    }
+}
+
+@keyframes botMove {
+    from {
+        margin-left: 533px;
+
+    }
+
+    to {
+        margin-left: 383px;
+
+    }
+}
+
+.bot {
+    margin-left: 383px;
+}
+
+.main-img {
+    height: 130px;
+    width: 150px;
+    display: none;
+}

@@ -1,0 +1,52 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RockPaperScissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="head">
+        <h1>The Rock Paper Scissor Game</h1>
+    </div>
+    <div class="main">
+        <div class="container">
+            <div class="gameBox">
+                <img class="main-img player" id="rock" src="img/glove-7299673_1280.png" alt="">
+                <img class="main-img player" id="paper" src="img/fingers-2027762_1280.png" alt="">
+                <img class="main-img player" id="scissor" src="img/hand-24473_1280.png" alt="">
+                <img class="main-img bot" id="bot-rock" src="img/flip_rock.png" alt="">
+                <img class="main-img bot" id="bot-paper" src="img/flip_paper.png" alt="">
+                <img class="main-img bot" id="bot-scissor" src="img/flip_scissor.png" alt="">
+
+            </div>
+            <div class="controls">
+                <ul id="rcs">
+                    <li class="moves"><img class="img" id="ani" src="img/glove-7299673_1280.png" alt="ROCK"> <br> Rock
+                    </li>
+                    <li class="moves"><img class="img" src="img/fingers-2027762_1280.png" alt=""> <br> Paper</li>
+                    <li class="moves"><img src="img/hand-24473_1280.png" class="img" alt=""> <br> Scissor</li>
+                </ul>
+            </div>
+        </div>
+        <div class="score">
+            <table>
+                <tr>
+                    <th>Won</th>
+                    <th>Lost</th>
+                    <th>Draw</th>
+                </tr>
+                <tr>
+                    <td id="win">it1</td>
+                    <td id="lose">it2</td>
+                    <td id="draw">it3</td>
+                </tr>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
